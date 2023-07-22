@@ -1,0 +1,214 @@
+/* General Reset */ 
+
+* {
+    
+    margin: 1%; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+/* Typography */ 
+
+/* body content */ 
+body {
+
+    font-family: 'Shantell Sans', cursive;
+    font-size: 0.90rem;
+    line-height:1.6;   
+}
+
+/* headings */
+h1,
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    font-family: 'Rampart One', cursive;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p:has(> a) {
+    text-align: center; 
+}
+
+/* Layout & Apperance */ 
+
+header {
+    text-align: center;
+    height: 10vw;
+    background-color:#FF8360; 
+    color: #fff; 
+    padding-top: 2%;
+    padding-bottom: 1%; 
+    border: 2px solid darkred; 
+    
+}
+
+header:hover{
+    background-color: darkseagreen;
+}
+
+.main-wrapper {
+    width: 80vw; 
+    margin: 0 auto;
+    border: 2px solid #999; 
+    padding: 1em;  
+}
+
+
+/* section */ 
+
+#point0{
+    background-color:burlywood;
+    border: 2px solid black;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+#point0:hover{
+    background-color:blanchedalmond;
+   
+}
+#point1{
+    background-color:darkkhaki;
+    border: 2px solid black;
+    margin-right: 2%;
+}
+#point1:hover{
+    background-color:aquamarine;
+}
+#point2{
+    background-color:cornflowerblue;
+    border: 2px solid black;
+    margin-right: 2%;
+}
+#point2:hover{
+    background-color: lightgreen;
+}
+#point3{
+    background-color: #FF8360;
+    border:2px solid black;
+}
+#point3:hover{
+    background-color:lightblue ;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+   
+}
+/* footer */ 
+
+footer p,
+footer a {
+    background-color:#7DCE82; 
+    color: #fff;
+    padding: 2em;
+    border: 2px solid #fff;  
+}
+
+footer p {
+    text-align:center;  
+}
+
+footer p a {
+    background-color:#FF8360;
+}
+
+footer p a:hover {
+    background-color: #9C528B; 
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    height:fit-content;
+    width:max-content; 
+    align-content: center;
+    
+}
+#para1{
+   
+    order: 3;
+    border: 1px solid black;   
+}
+
+
+#para3{
+    order: 1;
+    border: 1px solid black;
+    padding-right: 5%;
+   }
+
+
+#para2{
+   order: 2;
+   border: 1px solid black;
+}
+
+
+#para4{
+    order:4;
+    border: 1px solid black;
+}
+
+
+
+
+
+/* Reset default margin and padding for paragraphs */
+p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    
+   }
+  
+  img {
+    justify-content: center;
+    max-width: 300px; /* Adjust the width as per your image size */
+    margin-right: 20px; /* Add some space between image and text */
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  /* Reset some default margin and padding values */
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  
+  
+  
+  /* Style the footer content container */
+  .footer-content {
+    max-width: 1200px; /* Adjust the maximum width according to your page design */
+    margin: 0 auto; /* Center the content container within the footer */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribute the paragraphs evenly across the footer */
+  }
+  
+  /* Style the individual paragraphs */
+  #para1, #para2, #para3, #para4 {
+    flex: 1 1 50%; /* Set the paragraphs to occupy roughly 30% of the container width and flexibly adjust if necessary */
+    margin: 10px; /* Add some spacing between the paragraphs */
+    font-size: 14px; /* Adjust the font size according to your preference */
+    color: #333; /* Choose an appropriate text color for the paragraphs */
+  }
+
+   
+  
+  
+  
